@@ -46,5 +46,5 @@ class Command(BaseCommand):
         call_command("rebuild_references_index", verbosity=0)
 
         print(  # noqa: T201
-            "Awesome. Your data is loaded! The newsroom is ready to go!"
+            "Awesome! The data is loaded. Your project is ready to go!"
         )
